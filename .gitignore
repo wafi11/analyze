@@ -3,6 +3,7 @@
 env/
 venv/
 ENV/
+app.db
 
 # Python Cache
 __pycache__/
