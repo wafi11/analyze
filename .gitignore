@@ -1,2 +1,19 @@
-.venv
-dashboard_report.png
+# Python Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Database / Secret
+.env
+*.sqlite
