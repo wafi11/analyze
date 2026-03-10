@@ -34,8 +34,7 @@ def get_top_spender():
     
     result = duckdb.sql(query).fetchall()
     
-    for row in result:
-        print(f"name: {row[0]}, total: {row[1]}")
+    for row in result:    print(f"name: {row[0]}, total: {row[1]}")
 
 def top_location_far():
     query = f"""
