@@ -60,5 +60,5 @@ def visualization():
     fig.delaxes(axes[5])
 
     print("Visualisasi selesai dibuat!")
-    plt.savefig('dashboard_report.png') # Simpan jadi gambar
+    plt.savefig('dashboard_report.png')
     plt.show()

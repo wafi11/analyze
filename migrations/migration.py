@@ -1,8 +1,6 @@
-import psycopg2
 import csv
 import os
 from datetime import datetime
-from config.db import connect,close
 
 
 def parse_date(date_str):
