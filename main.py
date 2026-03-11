@@ -1,7 +1,7 @@
-from app import app
+from learn.pandas import learn_pandas
 
 def main():
-    app.run(debug=True, host="0.0.0.0", port=5050)
-
+  learn_pandas()
+  
 if __name__ == "__main__":
     main()

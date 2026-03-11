@@ -7,7 +7,7 @@ path = os.path.join(os.path.dirname(__file__), "./../data/orders.csv")
 def visualization():
     fig, axes = plt.subplots(3, 2, figsize=(15, 18))
     fig.subplots_adjust(hspace=0.5, wspace=0.3)
-    axes = axes.flatten() # Biar gampang diakses pake index 0,1,2...
+    axes = axes.flatten()
 
     # --- GRAFIK 1: Top Discount Users ---
     df1 = duckdb.sql(f"""

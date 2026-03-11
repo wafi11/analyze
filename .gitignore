@@ -5,6 +5,7 @@ venv/
 ENV/
 app.db
 
+
 # Python Cache
 __pycache__/
 *.py[cod]
